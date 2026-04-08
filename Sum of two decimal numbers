@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+    float a, b, sum;
+    scanf("%f %f", &a, &b);
+    sum = a + b;
+    printf("Sum of two decimal number is : %.2f", sum);
+    return 0;
+}

@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() 
+{
+    int d, rem, years, months, days;
+    scanf("%d", &d);
+    years = d / 365;
+    rem = d % 365;
+    months = rem / 30;
+    days = rem % 30;
+    printf("%d Years\n%d Months\n%d Days", years, months, days);
+    return 0;
+}

@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    if (num >= 1 && num <= 100) {
+        printf("Number is between 1 and 100");
+    } else {
+        printf("Number is NOT between 1 and 100");
+    }
+    return 0;
+}

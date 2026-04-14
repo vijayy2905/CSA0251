@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int x, y, i;
+    i = 10;
+    x = i++;   
+    y = i;
+    printf("Value of i: %d\n", i);
+    printf("Value of x: %d\n", x);
+    printf("Value of y: %d\n", y);
+    return 0;
+}

@@ -1,0 +1,36 @@
+#include <stdio.h>
+int main() {
+    int age
+    scanf("%d", &age);
+    switch(age / 10){
+        case 10:
+        case 9:
+        case 8:
+        case 7:
+        case 6:
+            printf("Senior Citizen");
+            break;
+        case 5:
+        case 4:
+        case 3:
+            printf("Middle Age");
+            break;
+        case 2:
+            if (age >= 20 && age <= 30)
+                printf("Adult");
+            break;
+        case 1:
+            if (age >= 13 && age <= 19)
+                printf("Teenage");
+            else
+                printf("Child");
+            break;
+        case 0:
+            printf("Child");
+            break;
+        default:
+            printf("Invalid Age");
+    }
+
+    return 0;
+}
